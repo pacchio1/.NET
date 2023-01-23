@@ -23,7 +23,7 @@ namespace SuperPing
         TextBox[] txtStatus = new TextBox[5];
         TextBox[] txtMs = new TextBox[5];
         PictureBox[] boxes = new PictureBox[5];
-        string nomefile = "ip.csv", x = "X.png", v = "V.png";
+        string nomefile = "bin/Debug/ip.csv", x = "X.png", v = "V.png";
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -86,9 +86,9 @@ namespace SuperPing
                     boxes[i].Load(x);
                 }
             }
-        }//bn forza 
-        
-        
+        }//bn forza
+
+
 
         private void timer_Tick(object sender, EventArgs e)
         {
@@ -120,7 +120,7 @@ namespace SuperPing
         private void Name_CheckedChanged(object sender, EventArgs e)
         {
             timer1.Enabled=true;
-            
+
         }
 
         private void rdbOff_CheckedChanged(object sender, EventArgs e)
@@ -131,7 +131,7 @@ namespace SuperPing
         private void save_Click(object sender, EventArgs e)
         {
             StreamWriter writer = new StreamWriter(nomefile);
-            string tds = null; 
+            string tds = null;
             for(int i=0;i<5;i++)
             {
                 tds = tds + txtIP[i].Text + '%';
