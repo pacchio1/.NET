@@ -16,7 +16,7 @@ namespace Calcolatrice
         {
             InitializeComponent();
         }
-        double a=0, b=0;
+        string a="0", b="0";
         double tot = 0;
         char calcolo;
         bool ifb=false,firstdigit=true;
@@ -33,16 +33,16 @@ namespace Calcolatrice
             
             switch (calcolo){
                 case '+':
-                    tot = a + b;
+                    tot = float.Parse(a) + float.Parse(b);
                     txt_OUT.Text = tot.ToString();
                     break;
                 case '-':
-                    tot = a - b;
+                    tot = float.Parse(a) - float.Parse(b);
                     txt_OUT.Text = tot.ToString();
                     break;
                 case '/':
-                    if (b != 0) {
-                        tot = a / b;
+                    if (float.Parse(b) != 0) {
+                        tot = float.Parse(a) / float.Parse(b);
                         txt_OUT.Text = tot.ToString();
                     }
                     else {
@@ -51,13 +51,13 @@ namespace Calcolatrice
                     }
                     break;
                 case '*':
-                    tot = a * b;
+                    tot = float.Parse(a) * float.Parse(b);
                     txt_OUT.Text = tot.ToString();
                     break;
                   
             }
             string operazione = a.ToString() + calcolo + b.ToString()+"="+tot.ToString();
-            a = tot;b = 0;
+            a = tot.ToString();b = "0";
             
             firstdigit = true;
             lsb_cronologia.Items.Add(operazione);
@@ -96,60 +96,140 @@ namespace Calcolatrice
             
             if (ifb == false)
             {
-                a = 7;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "7";
+                    a = a + "7";
+                }
+                else
+                {
+                    txt_OUT.Text = "7";
+                    a = "7";
+                }
+                firstdigit = false;
+                
                 
             }
             else
             {
-                b= 7;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "7";
+                    b = b + "7";
+                }
+                else
+                {
+                    txt_OUT.Text = "7";
+                    b = "7";
+                }
+                firstdigit = false;
+                
             }
             
             
-            if(firstdigit==false)
-                txt_OUT.Text = txt_OUT.Text + "7";
+            
+        }
+        /* X sos
+         * if (ifb == false)
+            {
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "5";
+                    a = "5";
+                }
+                else
+                {
+                    txt_OUT.Text = "5";
+                    a = a + "5";
+                }
+                firstdigit = false;
+                
+                
+            }
             else
             {
-                txt_OUT.Text = "7";
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "5";
+                    b = "5";
+                }
+                else
+                {
+                    txt_OUT.Text = "5";
+                    b = b + "5";
+                }
+                firstdigit = false;
+                
             }
-            firstdigit = false;
-        }
-
+         */
         private void btn_8_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 8;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "8";
+                     a = a + "8";
+                }
+                else
+                {
+                    txt_OUT.Text = "8";
+                   a = "8";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 8;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "8";
+                    b = b + "8";
+                }
+                else
+                {
+                    txt_OUT.Text = "8";
+                    b = "8";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "8";
-            else
-            {
-                txt_OUT.Text = "8";
-            }
-            firstdigit = false;
         }
 
         private void btn_9_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 9;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "9";
+                    a = a + "9";
+                }
+                else
+                {
+                    txt_OUT.Text = "9";
+                    a = "9";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 9;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "9";
+                    b = b + "9";
+                }
+                else
+                {
+                    txt_OUT.Text = "9";
+                    b = "9";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "9";
-            else
-            {
-                txt_OUT.Text = "9";
-            }
-            firstdigit = false;
         }
         
 
@@ -157,156 +237,261 @@ namespace Calcolatrice
         {
             if (ifb == false)
             {
-                a = 6;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "6";
+                    a = a + "6";
+                }
+                else
+                {
+                    txt_OUT.Text = "6";
+                    a = "6";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 6;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "6";
+                    b = b + "6";
+                }
+                else
+                {
+                    txt_OUT.Text = "6";
+                    b = "6";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "6";
-            else
-            {
-                txt_OUT.Text = "6";
-            }
-            firstdigit = false;
         }
 
         private void btn_5_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 5;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "5";
+                    a = a + "5";
+                }
+                else
+                {
+                    txt_OUT.Text = "5";
+                    a = "5";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 5;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "5";
+                    b = b + "5";
+                }
+                else
+                {
+                    txt_OUT.Text = "5";
+                    b = "5";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "5";
-            else
-            {
-                txt_OUT.Text = "5";
-            }
-            firstdigit = false;
         }
 
         private void btn_4_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 4;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "4";
+                    a = a + "4";
+                }
+                else
+                {
+                    txt_OUT.Text = "4";
+                    a = "4";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 4;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "4";
+                    b = b + "4";
+                }
+                else
+                {
+                    txt_OUT.Text = "4";
+                    b = "4";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "4";
-            else
-            {
-                txt_OUT.Text = "4";
-            }
-            firstdigit = false;
         }
 
         private void btn_3_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 3;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "3";
+                    a = a + "3";
+                }
+                else
+                {
+                    txt_OUT.Text = "3";
+                    a = "3";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 3;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "3";
+                     b = b + "3";
+                }
+                else
+                {
+                    txt_OUT.Text = "3";
+                    b = "3";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "3";
-            else
-            {
-                txt_OUT.Text = "3";
-            }
-            firstdigit = false;
         }
 
         private void btn_2_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 2;
-                
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "2";
+                     a = a + "2";
+                }
+                else
+                {
+                    txt_OUT.Text = "2";
+                    a = "2";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 2;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "2";
+                     b = b + "2";
+                }
+                else
+                {
+                    txt_OUT.Text = "2";
+                    b = "2";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "2";
-            else
-            {
-                txt_OUT.Text = "2";
-            }
-            firstdigit = false;
         }
 
         private void btn_1_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 1;
-                
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "1";
+                     a = a + "1";
+                }
+                else
+                {
+                    txt_OUT.Text = "1";
+                    a = "1";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 1;
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "1";
+                    b = b + "1";
+                }
+                else
+                {
+                    txt_OUT.Text = "1";
+                    b = "1";
+                }
+                firstdigit = false;
+
             }
-            if (firstdigit == false)
-                txt_OUT.Text = txt_OUT.Text + "1";
-            else
-            {
-                txt_OUT.Text = "1";
-            }
-            firstdigit = false;
         }
 
         private void btn_0_Click(object sender, EventArgs e)
         {
             if (ifb == false)
             {
-                a = 0;
-                
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "0";
+                     a = a + "0";
+                }
+                else
+                {
+                    txt_OUT.Text = "0";
+                    a = "0";
+                }
+                firstdigit = false;
+
+
             }
             else
             {
-                b = 0;
-                
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + "0";
+                     b = b + "0";
+                }
+                else
+                {
+                    txt_OUT.Text = "0";
+                    b = "0";
+                }
+                firstdigit = false;
+
             }
 
-            if (firstdigit == false)
-            {
-                txt_OUT.Text = txt_OUT.Text + "0";
-                firstdigit = false;
-            }
-            else
-            {
-                txt_OUT.Text = "0";
-            }
-            
         }
 
         private void lsb_cronologia_SelectedIndexChanged(object sender, EventArgs e)
         {
 
             string tmp,aux;
-            int start=0,end=0;
+            int start=0;
             tmp=lsb_cronologia.SelectedItem.ToString();
             //txt_OUT.Text = tmp;
             // to do prendere il numero dopo l' uguale (situazione x+y=z parte inportante la z) 
             start=tmp.IndexOf('=');
             aux=tmp.Substring(start+1);
-            a=int.Parse(aux);
+            a = aux;
             ifb = true;
-            b = 0;
+            b = "0";
             txt_OUT.Text = tmp;
             firstdigit = false; 
             
@@ -317,12 +502,12 @@ namespace Calcolatrice
         {
             if (ifb == false)
             {
-                a = -a;
+                a = "-"+a;
                 txt_OUT.Text = a.ToString();
             }
             else
             {
-                b = -b;
+                b = "-" + b;
                 txt_OUT.Text = b.ToString();
             }
             
@@ -335,12 +520,12 @@ namespace Calcolatrice
 
         private void btn_perc_Click(object sender, EventArgs e)
         {   
-            if (b != 0) {
+            if (float.Parse(b) != 0) {
                 txt_OUT.Text="Error";
             }
             else
             {
-                a = (a / 100);
+                a = (float.Parse(a) / 100).ToString();
                 txt_OUT.Text = a.ToString();
             }
 
@@ -350,8 +535,8 @@ namespace Calcolatrice
         private void BTN_AC_Click(object sender, EventArgs e)
         {
             ifb= false;
-            a=0;
-            b = 0;
+            a="0";
+            b = "0";
             txt_OUT.Text = "0";
             firstdigit = true;
         }
