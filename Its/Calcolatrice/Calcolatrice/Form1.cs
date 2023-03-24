@@ -532,6 +532,41 @@ namespace Calcolatrice
             
         }
 
+        private void btn_comma_Click(object sender, EventArgs e)
+        {
+            if (ifb == false)
+            {
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + ",";
+                    a = a + ",";
+                }
+                else
+                {
+                    txt_OUT.Text = ",";
+                    a = ",";
+                }
+                firstdigit = false;
+
+
+            }
+            else
+            {
+                if (firstdigit == false)
+                {
+                    txt_OUT.Text = txt_OUT.Text + ",";
+                    b = b + ",";
+                }
+                else
+                {
+                    txt_OUT.Text = ",";
+                    b = ",";
+                }
+                firstdigit = false;
+
+            }
+        }
+
         private void BTN_AC_Click(object sender, EventArgs e)
         {
             ifb= false;

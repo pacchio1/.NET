@@ -219,6 +219,7 @@
             this.btn_comma.TabIndex = 0;
             this.btn_comma.Text = ",";
             this.btn_comma.UseVisualStyleBackColor = false;
+            this.btn_comma.Click += new System.EventHandler(this.btn_comma_Click);
             // 
             // btn_3
             // 
