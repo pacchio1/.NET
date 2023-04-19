@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\bin\Debug\PaacchiottiMarco-Esercitazione1.exe.config
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\bin\Debug\PaacchiottiMarco-Esercitazione1.exe
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\bin\Debug\PaacchiottiMarco-Esercitazione1.pdb
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\obj\Debug\PacchiottiMarco-Esercitazione1.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\obj\Debug\PacchiottiMarco-Esercitazione1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\obj\Debug\PacchiottiMarco-Esercitazione1.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\obj\Debug\PaacchiottiMarco-Esercitazione1.exe
+C:\Users\ICTS22-24.016\Documents\PacchiottiMarco-Esercitazione1\PaacchiottiMarco-Esercitazione1\obj\Debug\PaacchiottiMarco-Esercitazione1.pdb
