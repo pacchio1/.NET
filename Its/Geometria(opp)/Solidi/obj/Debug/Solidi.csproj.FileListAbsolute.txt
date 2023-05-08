@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\bin\Debug\Solidi.exe.config
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\bin\Debug\Solidi.exe
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\bin\Debug\Solidi.pdb
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\obj\Debug\Solidi.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\obj\Debug\Solidi.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\obj\Debug\Solidi.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\obj\Debug\Solidi.exe
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\Solidi\obj\Debug\Solidi.pdb

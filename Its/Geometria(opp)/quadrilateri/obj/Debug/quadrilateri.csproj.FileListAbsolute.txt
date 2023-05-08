@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\bin\Debug\quadrilateri.exe.config
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\bin\Debug\quadrilateri.exe
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\bin\Debug\quadrilateri.pdb
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\obj\Debug\quadrilateri.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\obj\Debug\quadrilateri.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\obj\Debug\quadrilateri.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\obj\Debug\quadrilateri.exe
+C:\Users\ICTS22-24.016\Documents\6_aprile_BICT_Csharp\quadrilateri\obj\Debug\quadrilateri.pdb

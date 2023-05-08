@@ -1,0 +1,15 @@
+C:\Users\ICTS22-24.016\Documents\somma\somma\bin\Debug\net6.0\somma.exe
+C:\Users\ICTS22-24.016\Documents\somma\somma\bin\Debug\net6.0\somma.deps.json
+C:\Users\ICTS22-24.016\Documents\somma\somma\bin\Debug\net6.0\somma.runtimeconfig.json
+C:\Users\ICTS22-24.016\Documents\somma\somma\bin\Debug\net6.0\somma.dll
+C:\Users\ICTS22-24.016\Documents\somma\somma\bin\Debug\net6.0\somma.pdb
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.AssemblyInfoInputs.cache
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.AssemblyInfo.cs
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.dll
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\refint\somma.dll
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.pdb
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\somma.genruntimeconfig.cache
+C:\Users\ICTS22-24.016\Documents\somma\somma\obj\Debug\net6.0\ref\somma.dll

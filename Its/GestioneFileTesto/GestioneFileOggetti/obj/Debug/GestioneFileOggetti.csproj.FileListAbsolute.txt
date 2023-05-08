@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\obj\Debug\GestioneFileOggetti.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\obj\Debug\GestioneFileOggetti.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\obj\Debug\GestioneFileOggetti.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\bin\Debug\GestioneFileOggetti.exe.config
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\bin\Debug\GestioneFileOggetti.exe
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\bin\Debug\GestioneFileOggetti.pdb
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\obj\Debug\GestioneFileOggetti.exe
+C:\Users\ICTS22-24.016\Documents\GestioneFileTesto\GestioneFileOggetti\obj\Debug\GestioneFileOggetti.pdb

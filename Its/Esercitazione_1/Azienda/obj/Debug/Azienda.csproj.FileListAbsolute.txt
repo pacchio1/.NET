@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\bin\Debug\Azienda.exe.config
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\bin\Debug\Azienda.exe
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\bin\Debug\Azienda.pdb
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\obj\Debug\Azienda.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\obj\Debug\Azienda.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\obj\Debug\Azienda.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\obj\Debug\Azienda.exe
+C:\Users\ICTS22-24.016\Documents\Polimorfismo\Azienda\obj\Debug\Azienda.pdb

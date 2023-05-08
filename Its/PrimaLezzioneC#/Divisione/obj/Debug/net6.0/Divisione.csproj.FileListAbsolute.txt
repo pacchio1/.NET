@@ -1,0 +1,15 @@
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\bin\Debug\net6.0\Divisione.exe
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\bin\Debug\net6.0\Divisione.deps.json
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\bin\Debug\net6.0\Divisione.runtimeconfig.json
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\bin\Debug\net6.0\Divisione.dll
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\bin\Debug\net6.0\Divisione.pdb
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.AssemblyInfoInputs.cache
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.AssemblyInfo.cs
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.dll
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\refint\Divisione.dll
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.pdb
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\Divisione.genruntimeconfig.cache
+C:\Users\ICTS22-24.016\Documents\somma\Divisione\obj\Debug\net6.0\ref\Divisione.dll
