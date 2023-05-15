@@ -26,3 +26,14 @@ C:\Users\User\Desktop\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.GenerateRes
 C:\Users\User\Desktop\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\SuperPing\SuperPing\obj\Debug\SuperPing.exe
 C:\Users\User\Desktop\SuperPing\SuperPing\obj\Debug\SuperPing.pdb
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\bin\Debug\SuperPing.exe.config
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\bin\Debug\SuperPing.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\bin\Debug\SuperPing.pdb
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.Form1.resources
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.Properties.Resources.resources
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.GenerateResource.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\superiori\Super Ping\SuperPing\SuperPing\obj\Debug\SuperPing.pdb

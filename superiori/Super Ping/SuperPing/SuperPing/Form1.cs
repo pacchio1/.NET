@@ -23,7 +23,7 @@ namespace SuperPing
         TextBox[] txtStatus = new TextBox[5];
         TextBox[] txtMs = new TextBox[5];
         PictureBox[] boxes = new PictureBox[5];
-        string nomefile = "bin/Debug/ip.csv", x = "X.png", v = "V.png";
+        string nomefile = "ip.csv", x = "X.png", v = "V.png";
 
         private void Form1_Load(object sender, EventArgs e)
         {
