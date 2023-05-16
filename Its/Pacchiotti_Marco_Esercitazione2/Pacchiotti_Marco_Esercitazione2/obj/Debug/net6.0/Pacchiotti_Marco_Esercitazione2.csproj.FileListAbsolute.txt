@@ -1,0 +1,15 @@
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.AssemblyInfoInputs.cache
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.AssemblyInfo.cs
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\bin\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.exe
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\bin\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.deps.json
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\bin\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.runtimeconfig.json
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\bin\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.dll
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\bin\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.pdb
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.dll
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\refint\Pacchiotti_Marco_Esercitazione2.dll
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.pdb
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\Pacchiotti_Marco_Esercitazione2.genruntimeconfig.cache
+C:\Users\ICTS22-24.016\Documents\Pacchiotti_Marco_Esercitazione2\Pacchiotti_Marco_Esercitazione2\obj\Debug\net6.0\ref\Pacchiotti_Marco_Esercitazione2.dll

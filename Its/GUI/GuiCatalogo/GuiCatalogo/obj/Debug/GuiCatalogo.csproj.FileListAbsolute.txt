@@ -1,0 +1,13 @@
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\bin\Debug\GuiCatalogo.exe.config
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\bin\Debug\GuiCatalogo.exe
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\bin\Debug\GuiCatalogo.pdb
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.MDI.resources
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.Properties.Resources.resources
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.csproj.GenerateResource.cache
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.exe
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.pdb
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.NuovoProdotto.resources
+C:\Users\ICTS22-24.016\Documents\GuiCatalogo\GuiCatalogo\obj\Debug\GuiCatalogo.ElencoProdotti.resources

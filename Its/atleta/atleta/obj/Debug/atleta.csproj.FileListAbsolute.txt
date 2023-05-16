@@ -1,8 +1,0 @@
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\obj\Debug\atleta.csproj.AssemblyReference.cache
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\obj\Debug\atleta.csproj.SuggestedBindingRedirects.cache
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\obj\Debug\atleta.csproj.CoreCompileInputs.cache
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\bin\Debug\atleta.exe.config
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\bin\Debug\atleta.exe
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\bin\Debug\atleta.pdb
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\obj\Debug\atleta.exe
-C:\Users\ICTS22-24.016\Documents\atleta\atleta\obj\Debug\atleta.pdb

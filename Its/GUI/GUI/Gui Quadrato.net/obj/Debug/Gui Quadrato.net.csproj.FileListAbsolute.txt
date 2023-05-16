@@ -1,0 +1,11 @@
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\bin\Debug\Gui Quadrato.net.exe.config
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\bin\Debug\Gui Quadrato.net.exe
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\bin\Debug\Gui Quadrato.net.pdb
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui_Quadrato.net.Form1.resources
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui_Quadrato.net.Properties.Resources.resources
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.csproj.GenerateResource.cache
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.exe
+C:\Users\ICTS22-24.016\Documents\GUI\Gui Quadrato.net\obj\Debug\Gui Quadrato.net.pdb

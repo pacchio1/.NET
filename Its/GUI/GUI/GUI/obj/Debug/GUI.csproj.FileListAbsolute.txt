@@ -1,0 +1,11 @@
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\bin\Debug\GUI.exe
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.TestGui.resources
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.exe
+C:\Users\ICTS22-24.016\Documents\GUI\GUI\obj\Debug\GUI.pdb
