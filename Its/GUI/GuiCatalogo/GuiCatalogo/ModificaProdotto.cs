@@ -1,5 +1,4 @@
-﻿using Magazzino27;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,9 +12,10 @@ namespace GuiCatalogo
 {
     public partial class ModificaProdotto : Form
     {
-        public Prodotto Prodotto{ get; set; }
+        public Prodotto Prodotto { get; set; }
         public List<Prodotto> Lista { get; set; }
-        protected string path = @"..\..\..\Files\prodotti.dat";
+
+        private string path = @"..\..\..\files\prodotti.dat";
         public ModificaProdotto()
         {
             InitializeComponent();
@@ -23,35 +23,52 @@ namespace GuiCatalogo
 
         private void btnCerca_Click(object sender, EventArgs e)
         {
-            
-            Lista = MyLibrary.LeggifileOggetti(path);
-            int codice =Convert.ToInt32(txtCodiceRicerca.Text);
-            foreach (var item in Lista) 
-            { if (item.Codice==codice)
-                    Prodotto=item; 
+            Lista = MyLibrary.LeggiFileOggetti(path);
+
+            int codice = Convert.ToInt32(txtCodiceRicerca.Text);
+
+            foreach (var item in Lista)
+            {
+                if (item.Codice == codice)
+                    Prodotto = item;
             }
-            if(Prodotto!=null)
-                MessageBox.Show("Prodotto non trovato","modifica prodotto",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+
+            if (Prodotto == null)
+                MessageBox.Show("Prodotto non trovato", "Modifica Prodotto", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             else
             {
                 txtCodice.Text = Prodotto.Codice.ToString();
-                txtDenom.Text = Prodotto.Denominazione;
-                txtPrez.Text=Prodotto.Prezzo.ToString();
-                txtGia.Text=Prodotto.Giacenza.ToString();
+                txtDenominazione.Text = Prodotto.Denominazione;
+                txtPrezzo.Text = Prodotto.Prezzo.ToString();
+                txtGiacenza.Text = Prodotto.Giacenza.ToString();
             }
         }
 
         private void btnSalva_Click(object sender, EventArgs e)
         {
-
-            
-            Prodotto.Denominazione = txtDenom.Text;
-            Prodotto.Prezzo = Convert.ToDouble(txtPrez.Text);
-            Prodotto.Giacenza = Convert.ToInt32(txtGia.Text);
+            Prodotto.Denominazione = txtDenominazione.Text;
+            Prodotto.Prezzo = Convert.ToDouble(txtPrezzo.Text);
+            Prodotto.Giacenza = Convert.ToInt32(txtGiacenza.Text);
 
             MyLibrary.ScriviFileOggetti(path, Lista);
-                MessageBox.Show("Prodotto  aggiornato","modifica prodotto",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            CancellaForm();
+            MessageBox.Show("Prodotto aggiornato con successo", "Modifica Prodotto", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+        }
+
+        private void CancellaForm() {
+            Prodotto = null;
+            txtCodice.Text = string.Empty;
+            txtCodiceRicerca.Text = string.Empty;
+            txtDenominazione.Text = string.Empty;
+            txtGiacenza.Text = string.Empty;
+            txtPrezzo.Text = string.Empty;
+        }
+
+        private void btnCancella_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Sicuro di voler eliminare i seguenti dati?", "Elimina prodotto", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+                CancellaForm();
         }
     }
 }

@@ -29,43 +29,67 @@
         private void InitializeComponent()
         {
             this.lblTitolo = new System.Windows.Forms.Label();
-            this.lblNProdotti = new System.Windows.Forms.Label();
+            this.lblNumeroProdotti = new System.Windows.Forms.Label();
             this.lbxElenco = new System.Windows.Forms.ListBox();
+            this.btnElencoCsv = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitolo
             // 
             this.lblTitolo.AutoSize = true;
-            this.lblTitolo.Location = new System.Drawing.Point(390, 9);
+            this.lblTitolo.Location = new System.Drawing.Point(356, 23);
             this.lblTitolo.Name = "lblTitolo";
-            this.lblTitolo.Size = new System.Drawing.Size(78, 13);
+            this.lblTitolo.Size = new System.Drawing.Size(88, 15);
             this.lblTitolo.TabIndex = 0;
-            this.lblTitolo.Text = "Elenco prodotti";
+            this.lblTitolo.Text = "Elenco Prodotti";
             // 
-            // lblNProdotti
+            // lblNumeroProdotti
             // 
-            this.lblNProdotti.AutoSize = true;
-            this.lblNProdotti.Location = new System.Drawing.Point(7, 20);
-            this.lblNProdotti.Name = "lblNProdotti";
-            this.lblNProdotti.Size = new System.Drawing.Size(60, 13);
-            this.lblNProdotti.TabIndex = 1;
-            this.lblNProdotti.Text = "N. Prodotti:";
+            this.lblNumeroProdotti.AutoSize = true;
+            this.lblNumeroProdotti.Location = new System.Drawing.Point(51, 80);
+            this.lblNumeroProdotti.Name = "lblNumeroProdotti";
+            this.lblNumeroProdotti.Size = new System.Drawing.Size(140, 15);
+            this.lblNumeroProdotti.TabIndex = 1;
+            this.lblNumeroProdotti.Text = "Numero prodotti trovati: ";
             // 
             // lbxElenco
             // 
             this.lbxElenco.FormattingEnabled = true;
-            this.lbxElenco.Location = new System.Drawing.Point(7, 36);
+            this.lbxElenco.ItemHeight = 15;
+            this.lbxElenco.Location = new System.Drawing.Point(51, 112);
             this.lbxElenco.Name = "lbxElenco";
-            this.lbxElenco.Size = new System.Drawing.Size(781, 329);
+            this.lbxElenco.Size = new System.Drawing.Size(467, 259);
             this.lbxElenco.TabIndex = 2;
+            // 
+            // btnElencoCsv
+            // 
+            this.btnElencoCsv.Location = new System.Drawing.Point(51, 399);
+            this.btnElencoCsv.Name = "btnElencoCsv";
+            this.btnElencoCsv.Size = new System.Drawing.Size(177, 43);
+            this.btnElencoCsv.TabIndex = 3;
+            this.btnElencoCsv.Text = "Scrivi Elenco Csv";
+            this.btnElencoCsv.UseVisualStyleBackColor = true;
+            this.btnElencoCsv.Click += new System.EventHandler(this.btnElencoCsv_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(234, 399);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 43);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Leggi Elenco Csv";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ElencoProdotti
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 535);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnElencoCsv);
             this.Controls.Add(this.lbxElenco);
-            this.Controls.Add(this.lblNProdotti);
+            this.Controls.Add(this.lblNumeroProdotti);
             this.Controls.Add(this.lblTitolo);
             this.Name = "ElencoProdotti";
             this.Text = "Elenco Prodotti";
@@ -76,8 +100,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblTitolo;
-        private System.Windows.Forms.Label lblNProdotti;
-        private System.Windows.Forms.ListBox lbxElenco;
+        private Label lblTitolo;
+        private Label lblNumeroProdotti;
+        private ListBox lbxElenco;
+        private Button btnElencoCsv;
+        private Button button1;
     }
 }

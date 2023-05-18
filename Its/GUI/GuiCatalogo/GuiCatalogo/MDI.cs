@@ -104,16 +104,6 @@ namespace GuiCatalogo
             }
         }
 
-        private void MDI_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void eliminaProdottoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void nuovoProdottoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = new NuovoProdotto();
@@ -121,9 +111,23 @@ namespace GuiCatalogo
             form.MdiParent = this;
         }
 
-        private void elencoProdottoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void elencoProdottiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = new ElencoProdotti();
+            form.Show();
+            form.MdiParent = this;
+        }
+
+        private void modificaProdottoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new ModificaProdotto();
+            form.Show();
+            form.MdiParent = this;
+        }
+
+        private void eliminaProdottoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new EliminaProdotto();
             form.Show();
             form.MdiParent = this;
         }

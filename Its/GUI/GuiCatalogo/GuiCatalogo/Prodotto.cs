@@ -4,29 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Magazzino27
+namespace GuiCatalogo
 {
     [Serializable]
     public class Prodotto
     {
         public int Codice { get; set; }
-        public string Nome { get; set; }
         public string Denominazione { get; set; }
         public double Prezzo { get; set; }
         public int Giacenza { get; set; }
-        public bool IsInscorta() => Giacenza > 0 && Giacenza < 10;
+
+        public bool IsInScorta() => Giacenza > 0 && Giacenza<10;
         public bool IsEsaurito() => Giacenza == 0;
 
-        
+        public  string ExportCSV()
+        {
+            return $"" +
+                $"{nameof(Codice)}={Codice.ToString()}" +
+                $"; {nameof(Denominazione)}={Denominazione}" +
+                $"; {nameof(Prezzo)}={Prezzo.ToString()}" +
+                $"; {nameof(Giacenza)}={Giacenza.ToString()}";
+        }
 
         public override string ToString()
         {
-            return $"{{{nameof(Codice)}={Codice.ToString()}, " +
-                $"{nameof(Nome)}={Nome}," +
-                $"{nameof(Prezzo)}={Prezzo.ToString()}, " +
-                $"{nameof(Giacenza)}={Giacenza.ToString()}}}";
-
+            return $"{{{nameof(Codice)}={Codice.ToString()}," +
+                $" {nameof(Denominazione)}={Denominazione}," +
+                $" {nameof(Prezzo)}={Prezzo.ToString()}," +
+                $" {nameof(Giacenza)}={Giacenza.ToString()}}}";
         }
     }
-
 }

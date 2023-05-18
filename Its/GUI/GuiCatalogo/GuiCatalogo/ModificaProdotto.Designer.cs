@@ -28,208 +28,210 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlRicerca = new System.Windows.Forms.Panel();
-            this.lblTitolo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtCodiceRicerca = new System.Windows.Forms.TextBox();
-            this.btnCerca = new System.Windows.Forms.Button();
-            this.pnlModifica = new System.Windows.Forms.Panel();
-            this.btnCancella = new System.Windows.Forms.Button();
-            this.btnSalva = new System.Windows.Forms.Button();
-            this.txtGia = new System.Windows.Forms.TextBox();
-            this.lblGiacenza = new System.Windows.Forms.Label();
-            this.txtPrez = new System.Windows.Forms.TextBox();
-            this.lblPrezzo = new System.Windows.Forms.Label();
-            this.txtDenom = new System.Windows.Forms.TextBox();
-            this.lblDenominazione = new System.Windows.Forms.Label();
-            this.txtCodice = new System.Windows.Forms.TextBox();
-            this.lblCodice = new System.Windows.Forms.Label();
-            this.pnlRicerca.SuspendLayout();
-            this.pnlModifica.SuspendLayout();
-            this.SuspendLayout();
+            pnlRicerca = new Panel();
+            btnCerca = new Button();
+            txtCodiceRicerca = new TextBox();
+            lblCodiceRicerca = new Label();
+            lblTitolo = new Label();
+            pnlModifica = new Panel();
+            btnCancella = new Button();
+            btnSalva = new Button();
+            txtGiacenza = new TextBox();
+            lblGiacenza = new Label();
+            txtPrezzo = new TextBox();
+            lblPrezzo = new Label();
+            txtDenominazione = new TextBox();
+            lblDenominazione = new Label();
+            txtCodice = new TextBox();
+            lblCodice = new Label();
+            pnlRicerca.SuspendLayout();
+            pnlModifica.SuspendLayout();
+            SuspendLayout();
             // 
             // pnlRicerca
             // 
-            this.pnlRicerca.Controls.Add(this.btnCerca);
-            this.pnlRicerca.Controls.Add(this.txtCodiceRicerca);
-            this.pnlRicerca.Controls.Add(this.label1);
-            this.pnlRicerca.Location = new System.Drawing.Point(24, 22);
-            this.pnlRicerca.Name = "pnlRicerca";
-            this.pnlRicerca.Size = new System.Drawing.Size(299, 54);
-            this.pnlRicerca.TabIndex = 0;
-            // 
-            // lblTitolo
-            // 
-            this.lblTitolo.AutoSize = true;
-            this.lblTitolo.Location = new System.Drawing.Point(116, 6);
-            this.lblTitolo.Name = "lblTitolo";
-            this.lblTitolo.Size = new System.Drawing.Size(90, 13);
-            this.lblTitolo.TabIndex = 1;
-            this.lblTitolo.Text = "Modifica Prodotto";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "inserisci codice";
-            // 
-            // txtCodiceRicerca
-            // 
-            this.txtCodiceRicerca.Location = new System.Drawing.Point(104, 21);
-            this.txtCodiceRicerca.Name = "txtCodiceRicerca";
-            this.txtCodiceRicerca.Size = new System.Drawing.Size(100, 20);
-            this.txtCodiceRicerca.TabIndex = 1;
+            pnlRicerca.Controls.Add(btnCerca);
+            pnlRicerca.Controls.Add(txtCodiceRicerca);
+            pnlRicerca.Controls.Add(lblCodiceRicerca);
+            pnlRicerca.Location = new Point(35, 45);
+            pnlRicerca.Name = "pnlRicerca";
+            pnlRicerca.Size = new Size(447, 100);
+            pnlRicerca.TabIndex = 0;
             // 
             // btnCerca
             // 
-            this.btnCerca.Location = new System.Drawing.Point(210, 19);
-            this.btnCerca.Name = "btnCerca";
-            this.btnCerca.Size = new System.Drawing.Size(75, 23);
-            this.btnCerca.TabIndex = 2;
-            this.btnCerca.Text = "cerca";
-            this.btnCerca.UseVisualStyleBackColor = true;
-            this.btnCerca.Click += new System.EventHandler(this.btnCerca_Click);
+            btnCerca.Location = new Point(328, 40);
+            btnCerca.Name = "btnCerca";
+            btnCerca.Size = new Size(75, 23);
+            btnCerca.TabIndex = 2;
+            btnCerca.Text = "Cerca";
+            btnCerca.UseVisualStyleBackColor = true;
+            btnCerca.Click += btnCerca_Click;
+            // 
+            // txtCodiceRicerca
+            // 
+            txtCodiceRicerca.Location = new Point(214, 41);
+            txtCodiceRicerca.Name = "txtCodiceRicerca";
+            txtCodiceRicerca.Size = new Size(100, 23);
+            txtCodiceRicerca.TabIndex = 1;
+            // 
+            // lblCodiceRicerca
+            // 
+            lblCodiceRicerca.AutoSize = true;
+            lblCodiceRicerca.Location = new Point(46, 41);
+            lblCodiceRicerca.Name = "lblCodiceRicerca";
+            lblCodiceRicerca.Size = new Size(165, 15);
+            lblCodiceRicerca.TabIndex = 0;
+            lblCodiceRicerca.Text = "Inserisci il codice del prodotto";
+            // 
+            // lblTitolo
+            // 
+            lblTitolo.AutoSize = true;
+            lblTitolo.Location = new Point(221, 9);
+            lblTitolo.Name = "lblTitolo";
+            lblTitolo.Size = new Size(104, 15);
+            lblTitolo.TabIndex = 1;
+            lblTitolo.Text = "Modifica Prodotto";
             // 
             // pnlModifica
             // 
-            this.pnlModifica.Controls.Add(this.btnCancella);
-            this.pnlModifica.Controls.Add(this.btnSalva);
-            this.pnlModifica.Controls.Add(this.txtGia);
-            this.pnlModifica.Controls.Add(this.lblGiacenza);
-            this.pnlModifica.Controls.Add(this.txtPrez);
-            this.pnlModifica.Controls.Add(this.lblPrezzo);
-            this.pnlModifica.Controls.Add(this.txtDenom);
-            this.pnlModifica.Controls.Add(this.lblDenominazione);
-            this.pnlModifica.Controls.Add(this.txtCodice);
-            this.pnlModifica.Controls.Add(this.lblCodice);
-            this.pnlModifica.Location = new System.Drawing.Point(24, 93);
-            this.pnlModifica.Name = "pnlModifica";
-            this.pnlModifica.Size = new System.Drawing.Size(246, 234);
-            this.pnlModifica.TabIndex = 2;
+            pnlModifica.Controls.Add(btnCancella);
+            pnlModifica.Controls.Add(btnSalva);
+            pnlModifica.Controls.Add(txtGiacenza);
+            pnlModifica.Controls.Add(lblGiacenza);
+            pnlModifica.Controls.Add(txtPrezzo);
+            pnlModifica.Controls.Add(lblPrezzo);
+            pnlModifica.Controls.Add(txtDenominazione);
+            pnlModifica.Controls.Add(lblDenominazione);
+            pnlModifica.Controls.Add(txtCodice);
+            pnlModifica.Controls.Add(lblCodice);
+            pnlModifica.Location = new Point(35, 165);
+            pnlModifica.Name = "pnlModifica";
+            pnlModifica.Size = new Size(447, 316);
+            pnlModifica.TabIndex = 2;
             // 
             // btnCancella
             // 
-            this.btnCancella.Location = new System.Drawing.Point(135, 195);
-            this.btnCancella.Name = "btnCancella";
-            this.btnCancella.Size = new System.Drawing.Size(75, 23);
-            this.btnCancella.TabIndex = 24;
-            this.btnCancella.Text = "cancella";
-            this.btnCancella.UseVisualStyleBackColor = true;
+            btnCancella.Location = new Point(287, 264);
+            btnCancella.Name = "btnCancella";
+            btnCancella.Size = new Size(75, 23);
+            btnCancella.TabIndex = 20;
+            btnCancella.Text = "Cancella";
+            btnCancella.UseVisualStyleBackColor = true;
+            btnCancella.Click += btnCancella_Click;
             // 
             // btnSalva
             // 
-            this.btnSalva.Location = new System.Drawing.Point(26, 195);
-            this.btnSalva.Name = "btnSalva";
-            this.btnSalva.Size = new System.Drawing.Size(75, 23);
-            this.btnSalva.TabIndex = 23;
-            this.btnSalva.Text = " salva";
-            this.btnSalva.UseVisualStyleBackColor = true;
-            this.btnSalva.Click += new System.EventHandler(this.btnSalva_Click);
+            btnSalva.Location = new Point(195, 264);
+            btnSalva.Name = "btnSalva";
+            btnSalva.Size = new Size(75, 23);
+            btnSalva.TabIndex = 19;
+            btnSalva.Text = "Salva";
+            btnSalva.UseVisualStyleBackColor = true;
+            btnSalva.Click += btnSalva_Click;
             // 
-            // txtGia
+            // txtGiacenza
             // 
-            this.txtGia.Location = new System.Drawing.Point(110, 149);
-            this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(100, 20);
-            this.txtGia.TabIndex = 22;
+            txtGiacenza.Location = new Point(195, 207);
+            txtGiacenza.Name = "txtGiacenza";
+            txtGiacenza.Size = new Size(167, 23);
+            txtGiacenza.TabIndex = 18;
             // 
             // lblGiacenza
             // 
-            this.lblGiacenza.AutoSize = true;
-            this.lblGiacenza.Location = new System.Drawing.Point(29, 152);
-            this.lblGiacenza.Name = "lblGiacenza";
-            this.lblGiacenza.Size = new System.Drawing.Size(50, 13);
-            this.lblGiacenza.TabIndex = 21;
-            this.lblGiacenza.Text = "giacenza";
+            lblGiacenza.AutoSize = true;
+            lblGiacenza.Location = new Point(121, 207);
+            lblGiacenza.Name = "lblGiacenza";
+            lblGiacenza.Size = new Size(54, 15);
+            lblGiacenza.TabIndex = 17;
+            lblGiacenza.Text = "Giacenza";
+            lblGiacenza.TextAlign = ContentAlignment.TopCenter;
             // 
-            // txtPrez
+            // txtPrezzo
             // 
-            this.txtPrez.Location = new System.Drawing.Point(110, 110);
-            this.txtPrez.Name = "txtPrez";
-            this.txtPrez.Size = new System.Drawing.Size(100, 20);
-            this.txtPrez.TabIndex = 20;
+            txtPrezzo.Location = new Point(195, 149);
+            txtPrezzo.Name = "txtPrezzo";
+            txtPrezzo.Size = new Size(167, 23);
+            txtPrezzo.TabIndex = 16;
             // 
             // lblPrezzo
             // 
-            this.lblPrezzo.AutoSize = true;
-            this.lblPrezzo.Location = new System.Drawing.Point(29, 113);
-            this.lblPrezzo.Name = "lblPrezzo";
-            this.lblPrezzo.Size = new System.Drawing.Size(33, 13);
-            this.lblPrezzo.TabIndex = 19;
-            this.lblPrezzo.Text = "prezo";
+            lblPrezzo.AutoSize = true;
+            lblPrezzo.Location = new Point(134, 149);
+            lblPrezzo.Name = "lblPrezzo";
+            lblPrezzo.Size = new Size(41, 15);
+            lblPrezzo.TabIndex = 15;
+            lblPrezzo.Text = "Prezzo";
             // 
-            // txtDenom
+            // txtDenominazione
             // 
-            this.txtDenom.Location = new System.Drawing.Point(110, 61);
-            this.txtDenom.Name = "txtDenom";
-            this.txtDenom.Size = new System.Drawing.Size(100, 20);
-            this.txtDenom.TabIndex = 18;
+            txtDenominazione.Location = new Point(195, 90);
+            txtDenominazione.Name = "txtDenominazione";
+            txtDenominazione.Size = new Size(167, 23);
+            txtDenominazione.TabIndex = 14;
             // 
             // lblDenominazione
             // 
-            this.lblDenominazione.AutoSize = true;
-            this.lblDenominazione.Location = new System.Drawing.Point(29, 64);
-            this.lblDenominazione.Name = "lblDenominazione";
-            this.lblDenominazione.Size = new System.Drawing.Size(78, 13);
-            this.lblDenominazione.TabIndex = 17;
-            this.lblDenominazione.Text = "denominazione";
+            lblDenominazione.AutoSize = true;
+            lblDenominazione.Location = new Point(85, 90);
+            lblDenominazione.Name = "lblDenominazione";
+            lblDenominazione.Size = new Size(90, 15);
+            lblDenominazione.TabIndex = 13;
+            lblDenominazione.Text = "Denominazione";
             // 
             // txtCodice
             // 
-            this.txtCodice.Location = new System.Drawing.Point(110, 16);
-            this.txtCodice.Name = "txtCodice";
-            this.txtCodice.ReadOnly = true;
-            this.txtCodice.Size = new System.Drawing.Size(100, 20);
-            this.txtCodice.TabIndex = 16;
+            txtCodice.Enabled = false;
+            txtCodice.Location = new Point(195, 29);
+            txtCodice.Name = "txtCodice";
+            txtCodice.ReadOnly = true;
+            txtCodice.Size = new Size(167, 23);
+            txtCodice.TabIndex = 12;
             // 
             // lblCodice
             // 
-            this.lblCodice.AutoSize = true;
-            this.lblCodice.Location = new System.Drawing.Point(29, 16);
-            this.lblCodice.Name = "lblCodice";
-            this.lblCodice.Size = new System.Drawing.Size(39, 13);
-            this.lblCodice.TabIndex = 15;
-            this.lblCodice.Text = "codice";
+            lblCodice.AutoSize = true;
+            lblCodice.Location = new Point(131, 29);
+            lblCodice.Name = "lblCodice";
+            lblCodice.Size = new Size(44, 15);
+            lblCodice.TabIndex = 11;
+            lblCodice.Text = "Codice";
             // 
             // ModificaProdotto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 392);
-            this.Controls.Add(this.pnlModifica);
-            this.Controls.Add(this.lblTitolo);
-            this.Controls.Add(this.pnlRicerca);
-            this.Name = "ModificaProdotto";
-            this.Text = "Modifica Prodotto";
-            this.pnlRicerca.ResumeLayout(false);
-            this.pnlRicerca.PerformLayout();
-            this.pnlModifica.ResumeLayout(false);
-            this.pnlModifica.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(546, 516);
+            Controls.Add(pnlModifica);
+            Controls.Add(lblTitolo);
+            Controls.Add(pnlRicerca);
+            Name = "ModificaProdotto";
+            Text = "Modifica Prodotto";
+            pnlRicerca.ResumeLayout(false);
+            pnlRicerca.PerformLayout();
+            pnlModifica.ResumeLayout(false);
+            pnlModifica.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlRicerca;
-        private System.Windows.Forms.Button btnCerca;
-        private System.Windows.Forms.TextBox txtCodiceRicerca;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblTitolo;
-        private System.Windows.Forms.Panel pnlModifica;
-        private System.Windows.Forms.Button btnCancella;
-        private System.Windows.Forms.Button btnSalva;
-        private System.Windows.Forms.TextBox txtGia;
-        private System.Windows.Forms.Label lblGiacenza;
-        private System.Windows.Forms.TextBox txtPrez;
-        private System.Windows.Forms.Label lblPrezzo;
-        private System.Windows.Forms.TextBox txtDenom;
-        private System.Windows.Forms.Label lblDenominazione;
-        private System.Windows.Forms.TextBox txtCodice;
-        private System.Windows.Forms.Label lblCodice;
+        private Panel pnlRicerca;
+        private Button btnCerca;
+        private TextBox txtCodiceRicerca;
+        private Label lblCodiceRicerca;
+        private Label lblTitolo;
+        private Panel pnlModifica;
+        private Button btnCancella;
+        private Button btnSalva;
+        private TextBox txtGiacenza;
+        private Label lblGiacenza;
+        private TextBox txtPrezzo;
+        private Label lblPrezzo;
+        private TextBox txtDenominazione;
+        private Label lblDenominazione;
+        private TextBox txtCodice;
+        private Label lblCodice;
     }
 }

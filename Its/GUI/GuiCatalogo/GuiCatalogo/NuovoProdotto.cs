@@ -1,10 +1,8 @@
-﻿using Magazzino27;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
@@ -22,15 +20,36 @@ namespace GuiCatalogo
 
         private void btnSalva_Click(object sender, EventArgs e)
         {
-            string path = @"..\..\..\Files\prodotti.dat";
-            //var Lista=MyLibrary.LeggifileOggetti(path);
-            var Lista=new List<Prodotto>();
-            Lista.Add(new Prodotto { Codice=Convert.ToInt32(txtCodice.Text),
-                Denominazione=txtDenom.Text,
-                Prezzo=Convert.ToDouble(txtPrez.Text),
-                Giacenza=Convert.ToInt32(txtGia.Text) });
-            MyLibrary.ScriviFileOggetti(path, Lista);
-            MessageBox.Show("operazione avvenuta con successo", "Nuovo prodotto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string path = @"..\..\..\files\prodotti.dat";
+
+            var lista = MyLibrary.LeggiFileOggetti(path);
+            //var lista = new List<Prodotto>();
+            lista.Add(new Prodotto
+            {
+                Codice = Convert.ToInt32(txtCodice.Text),
+                Denominazione = txtDenominazione.Text,
+                Prezzo = Convert.ToDouble(txtPrezzo.Text),
+                Giacenza = Convert.ToInt32(txtGiacenza.Text)
+            });
+
+            MyLibrary.ScriviFileOggetti(path, lista);
+
+            MessageBox.Show("Operazione avvenuta con successo", "Nuovo prodotto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void CancellaForm()
+        {
+            txtCodice.Text = string.Empty;
+            txtDenominazione.Text = string.Empty;
+            txtGiacenza.Text = string.Empty;
+            txtPrezzo.Text = string.Empty;
+        }
+
+        private void btnCancella_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Sicuro di voler eliminare i seguenti dati?", "Elimina prodotto", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+                CancellaForm();
         }
     }
 }
