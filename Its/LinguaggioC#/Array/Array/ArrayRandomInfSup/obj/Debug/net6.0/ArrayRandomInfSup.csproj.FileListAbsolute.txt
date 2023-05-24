@@ -1,0 +1,15 @@
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\bin\Debug\net6.0\ArrayRandomInfSup.exe
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\bin\Debug\net6.0\ArrayRandomInfSup.deps.json
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\bin\Debug\net6.0\ArrayRandomInfSup.runtimeconfig.json
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\bin\Debug\net6.0\ArrayRandomInfSup.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\bin\Debug\net6.0\ArrayRandomInfSup.pdb
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\refint\ArrayRandomInfSup.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.pdb
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ArrayRandomInfSup.genruntimeconfig.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Array\ArrayRandomInfSup\obj\Debug\net6.0\ref\ArrayRandomInfSup.dll

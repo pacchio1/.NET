@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\linq\linq\bin\Debug\linq.exe.config
+C:\Users\ICTS22-24.016\Documents\linq\linq\bin\Debug\linq.exe
+C:\Users\ICTS22-24.016\Documents\linq\linq\bin\Debug\linq.pdb
+C:\Users\ICTS22-24.016\Documents\linq\linq\obj\Debug\linq.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\linq\linq\obj\Debug\linq.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\linq\linq\obj\Debug\linq.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\linq\linq\obj\Debug\linq.exe
+C:\Users\ICTS22-24.016\Documents\linq\linq\obj\Debug\linq.pdb

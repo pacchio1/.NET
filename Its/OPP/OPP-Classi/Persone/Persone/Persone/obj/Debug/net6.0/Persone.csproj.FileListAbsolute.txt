@@ -1,0 +1,15 @@
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\bin\Debug\net6.0\Persone.exe
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\bin\Debug\net6.0\Persone.deps.json
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\bin\Debug\net6.0\Persone.runtimeconfig.json
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\bin\Debug\net6.0\Persone.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\bin\Debug\net6.0\Persone.pdb
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\refint\Persone.dll
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.pdb
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\Persone.genruntimeconfig.cache
+C:\Users\r.catalano\Desktop\EserciziC#\Persone\Persone\obj\Debug\net6.0\ref\Persone.dll

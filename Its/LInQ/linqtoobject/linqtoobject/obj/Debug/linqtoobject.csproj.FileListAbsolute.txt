@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\bin\Debug\linqtoobject.exe.config
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\bin\Debug\linqtoobject.exe
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\bin\Debug\linqtoobject.pdb
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\obj\Debug\linqtoobject.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\obj\Debug\linqtoobject.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\obj\Debug\linqtoobject.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\obj\Debug\linqtoobject.exe
+C:\Users\ICTS22-24.016\Documents\linqtoobject\linqtoobject\obj\Debug\linqtoobject.pdb
