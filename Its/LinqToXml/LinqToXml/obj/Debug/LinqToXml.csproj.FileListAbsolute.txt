@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\bin\Debug\LinqToXml.exe.config
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\bin\Debug\LinqToXml.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\bin\Debug\LinqToXml.pdb
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\obj\Debug\LinqToXml.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\obj\Debug\LinqToXml.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\obj\Debug\LinqToXml.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\obj\Debug\LinqToXml.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Its\LinqToXml\LinqToXml\obj\Debug\LinqToXml.pdb
