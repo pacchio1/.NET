@@ -56,35 +56,31 @@
                         <li><a runat="server" href="~/Contact">Contatto</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Esegui registrazione</a></li>
-                                <li><a runat="server" href="~/Account/Login">Accedi</a></li>
+                       <AnonymousTemplate>
+                            <ul class="navbar-nav navbar-right">
+                                <li><a runat="server" class="nav-link" href="~/Account/Register">Esegui registrazione</a></li>
+                                <li><a runat="server" class="nav-link" href="~/Account/Login">Accedi</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Salve, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                            <ul class="navbar-nav navbar-right">
+                                <li><a runat="server" class="nav-link" href="~/Account/Manage" title="Manage your account">Salve, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                                <asp:LoginView ID="lwCMS" runat="server">
+                                    <RoleGroups>
+                            <asp:RoleGroup Roles="Administrators">
+                                <ContentTemplate>
                                 
-
+                                    <li><a runat="server" class="nav-link" href="~/CMS/Dashboard" title="Dashboard" style="color:red;font-weight:bold">CMS</a></li>
+                                
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
+                                </asp:LoginView>
                                 <li>
-                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                    <asp:LoginStatus runat="server" CssClass="nav-link" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
                                 </li>
                             </ul>
                         </LoggedInTemplate>
-                        <RoleGroups>
-                            <asp:RoleGroup Roles="Administrator">
-                                <ContentTemplate>
-                                    <li><a runat="server" href="~/Account/Manage" title="Manage your account">Salve, <%: Context.User.Identity.GetUserName()  %> !</a></li>
-                                    <li><a runat="server" href="~/CMS/Dashboard" title="Dashboard" style="color: red; font-weight: bold">CMS</a></li>
-
-                                    <li>
-                                        <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
-                                    </li>
-                                </ContentTemplate>
-
-                            </asp:RoleGroup>
-                        </RoleGroups>
                     </asp:LoginView>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     <asp:GridView ID="gvClienti" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="CustomerID" DataSourceID="SDSClienti" GridLines="Horizontal" HorizontalAlign="Center" Width="90%">
         <AlternatingRowStyle BackColor="#F7F7F7" />
         <Columns>
-            <asp:BoundField DataField="CustomerID" HeaderText="CustomerID" ReadOnly="True" SortExpression="CustomerID" />
+            <asp:BoundField DataField="CustomerID" HeaderText="CustomerID" ReadOnly="True" SortExpression="CustomerID" Visible="False" />
             <asp:BoundField DataField="CompanyName" HeaderText="CompanyName" SortExpression="CompanyName" />
             <asp:BoundField DataField="ContactName" HeaderText="ContactName" SortExpression="ContactName" />
             <asp:BoundField DataField="City" HeaderText="City" SortExpression="City" />

@@ -170,6 +170,7 @@
     <Content Include="CMS\Dashboard.aspx" />
     <Content Include="CMS\DetagglioCliente.aspx" />
     <Content Include="CMS\ElencoClienti.aspx" />
+    <Content Include="CMS\GestioneOrdini.aspx" />
     <Content Include="CMS\NuovoCliente.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -191,6 +192,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="CMS\Web.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Products.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -364,6 +366,13 @@
     </Compile>
     <Compile Include="CMS\ElencoClienti.aspx.designer.cs">
       <DependentUpon>ElencoClienti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CMS\GestioneOrdini.aspx.cs">
+      <DependentUpon>GestioneOrdini.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMS\GestioneOrdini.aspx.designer.cs">
+      <DependentUpon>GestioneOrdini.aspx</DependentUpon>
     </Compile>
     <Compile Include="CMS\NuovoCliente.aspx.cs">
       <DependentUpon>NuovoCliente.aspx</DependentUpon>
