@@ -1,0 +1,14 @@
+﻿@model MVC.ContattiViewModel
+
+@{
+    ViewBag.Title = "Contatti";
+}
+
+<h2>Contatti</h2>
+<form action="/home/RecuperoContatti" method="post">
+    nominativo: <input type="text" name="Nominativo" />
+    email: <input type="email" name="email" />
+    oggetto: <input type="text" name="Nomoggettoinativo" />
+    messaggio: <input type="text" name="messaggio" />
+    <input type="submit" value="INVIA" />
+</form>
