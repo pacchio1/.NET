@@ -17,7 +17,7 @@ namespace MVC_Database3.Controllers
         // GET: Studenti
         public ActionResult Index()
         {
-            var elenco_studenti = Context.Studenti.ToList();
+            var elenco_studenti = Context.Studenti.OrderBy(s => s.Cognome).OrderBy(s => s.Nome).ToList();
             return View(elenco_studenti);
 
         }
