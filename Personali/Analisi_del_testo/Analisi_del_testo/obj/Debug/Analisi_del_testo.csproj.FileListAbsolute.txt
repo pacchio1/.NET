@@ -1,0 +1,8 @@
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\bin\Debug\Analisi_del_testo.exe.config
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\bin\Debug\Analisi_del_testo.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\bin\Debug\Analisi_del_testo.pdb
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\obj\Debug\Analisi_del_testo.csproj.AssemblyReference.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\obj\Debug\Analisi_del_testo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\obj\Debug\Analisi_del_testo.csproj.CoreCompileInputs.cache
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\obj\Debug\Analisi_del_testo.exe
+C:\Users\ICTS22-24.016\Documents\GitHub\C#\Personali\Analisi_del_testo\Analisi_del_testo\obj\Debug\Analisi_del_testo.pdb
