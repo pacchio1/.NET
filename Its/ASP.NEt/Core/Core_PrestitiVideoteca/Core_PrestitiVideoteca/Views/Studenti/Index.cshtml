@@ -9,6 +9,16 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+@{
+    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+}
+
+<div class="alphabet-buttons">
+    @foreach (var letter in alphabet)
+    {
+        <button class="letter-button" onclick="location.href='@Url.Action("GetNomiByLetter", "Studenti", new { lettera = letter })'">@letter</button>
+    }
+</div>
 <table class="table">
     <thead>
         <tr>

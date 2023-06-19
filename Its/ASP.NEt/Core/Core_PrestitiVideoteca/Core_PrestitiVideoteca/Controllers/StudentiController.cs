@@ -21,7 +21,8 @@ namespace Core_PrestitiVideoteca.Controllers
         // GET: Studenti
         public async Task<IActionResult> Index()
         {
-              return _context.Studenti != null ? 
+           
+            return _context.Studenti != null ? 
                           View(await _context.Studenti.ToListAsync()) :
                           Problem("Entity set 'Core_PrestitiVideotecaContext.Studenti'  is null.");
         }
@@ -158,5 +159,21 @@ namespace Core_PrestitiVideoteca.Controllers
         {
           return (_context.Studenti?.Any(e => e.Matricola == id)).GetValueOrDefault();
         }
+        // GET: Studenti/GetNomiByLetter
+        public IActionResult GetNomiByLetter(char lettera)
+        {
+            if (_context.Studenti == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
+            var studentiConLettera = _context.Studenti
+                .Where(s => s.Nome.StartsWith(lettera.ToString()))
+                .ToList();
+
+            return View("Index", studentiConLettera);
+        }
+
+
     }
 }

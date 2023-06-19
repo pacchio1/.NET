@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Core_PrestitiVideoteca-339e8f07-3c7d-43d8-a24d-b4f9240267a5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Core_PrestitiVideoteca-e00cfc81-9113-4719-b811-69213d1b429b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Core_PrestitiVideoteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

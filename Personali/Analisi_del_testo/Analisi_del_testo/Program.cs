@@ -66,8 +66,8 @@ namespace Analisi_del_testo
             {
                 Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
             }
-
-
+            reader.Close ();
+            //
 
 
             //fine
