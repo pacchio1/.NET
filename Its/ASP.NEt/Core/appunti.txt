@@ -1,0 +1,5 @@
+creare progetto account individuali
+Scaffold-DbContext "Server=.\\MSSQLSERVER01;Database=Ludoteca;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+copiare in program.cs
+builder.Services.AddDbContext<[Nome del context]Context>(options =>
+                options.UseSqlServer(connectionString));

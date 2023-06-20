@@ -1,0 +1,61 @@
+﻿@model Ludoteca.Models.Gioco
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Gioco</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Denominazione)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Denominazione)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descrizione)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descrizione)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipologia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tipologia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EtaDeiGiocatori)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EtaDeiGiocatori)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumeroDiGiocatori)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumeroDiGiocatori)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DurataPartita)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DurataPartita)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumeroDiPezzi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumeroDiPezzi)
+        </dd>
+    </dl>
+    <img src="@Model.url_img" alt="@Model.url_img" />
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdGioco">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
