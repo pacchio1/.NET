@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jU1DP8rP9FIA4bU7P4IyOPQuF1GSe8g2jN4rNiSm1ilTa4qGB68k7pejVZ67u9FZ0VLOXZv4btlW+Lc1AVBYvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_Ludoteca\\Core_Ludoteca\\Core_Ludoteca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\6.0.16\\microsoft.aspnetcore.authentication.negotiate.6.0.16.nupkg.sha512",
+    "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.16\\microsoft.aspnetcore.connections.abstractions.6.0.16.nupkg.sha512",
+    "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\microsoft.extensions.features\\6.0.16\\microsoft.extensions.features.6.0.16.nupkg.sha512",
+    "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\system.directoryservices.protocols\\6.0.1\\system.directoryservices.protocols.6.0.1.nupkg.sha512",
+    "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
