@@ -168,7 +168,8 @@ namespace Ludoteca.Controllers
             var giochi=await _context.Giochi
                 .Where(g => g.Denominazione.Contains(SQ))
                 .ToListAsync();
-            return View(giochi);
+            return View("Index",giochi);
         }
+        
     }
 }
