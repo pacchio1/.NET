@@ -18,20 +18,20 @@
         Nome Attore:<input type="text" name="Query" placeholder="SearchByActor" />
         <input type="submit" value="Search" />
     </form>
+        <form asp-controller="Films" asp-action="SearchAll" method="get">
+            Nome Attore:<input type="text" name="Query" placeholder="SearchByActor" />
+            <input type="submit" value="Search" />
+    </form>
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Titolo)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Supporto)
-            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Regista)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Attori)
-            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Genere)
             </th>
@@ -44,18 +44,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Titolo)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Supporto)
-            </td>
+           
             <td>
                 @Html.DisplayFor(modelItem => item.Regista)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Attori)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genere)
-            </td>
+            
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Codice">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Codice">Details</a> |
@@ -65,3 +61,4 @@
 }
     </tbody>
 </table>
+<p></p>

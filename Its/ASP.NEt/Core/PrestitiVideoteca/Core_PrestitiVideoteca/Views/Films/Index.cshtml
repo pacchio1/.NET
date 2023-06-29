@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Core_PrestitiVideoteca.Models.Film>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Elenco Film</h1>
+
+<p>
+    <partial name="_DataPagerPartial" />
+</p>
+<form asp-controller="Films" asp-action="Index" method="get">
+    Search:<input type="text" name="Query" placeholder="search" />
+    <input type="submit" value="Search" />
+</form>
+<form asp-controller="Films" asp-action="Index" method="get">
+Genere:
+<select name="genere">
+    @foreach (var genere in ViewBag.Generi)
+    {
+        <option value="@genere">@genere</option>
+
+    }
+        <input type="submit" value="Search" />
+</select>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @if (ViewBag.Ordinamento == "asc")
+                {
+                    <a href="?o=desc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
+                }
+                else
+                {
+                    <a href="?o=asc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
+                }
+            </th>            
+            <th>
+                @Html.DisplayNameFor(model => model.Regista)
+            </th>            
+            <th>
+               @Html.DisplayNameFor(model => model.Genere)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titolo)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.Regista)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.Genere)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Codice">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

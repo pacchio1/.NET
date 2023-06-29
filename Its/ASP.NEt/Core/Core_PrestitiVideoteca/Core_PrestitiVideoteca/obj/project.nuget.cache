@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pUCOBWglXk+Y/x+ZLWaHtKzLjs1BkzhzwYELLptR1UMkY8qZnO+AWdIDwQIuuivpQcTaa8DVwOxU9dZhin0Tw==",
+  "dgSpecHash": "GlFRo6zaw+duM+sJerth2weW4BHWt6KL6YN+nFsAoQvEUHxohMP7EVu25S0+DKhrypRp3uck4Cx9SGBY1Hpa8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca.csproj",
+  "projectFilePath": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca\\frontend.prestitivideoteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ICTS22-24.016\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

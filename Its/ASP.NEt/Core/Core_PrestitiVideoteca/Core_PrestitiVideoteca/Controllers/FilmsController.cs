@@ -17,10 +17,14 @@ namespace Core_PrestitiVideoteca.Controllers
         {
             _context = context;
         }
-
+        
         // GET: Films
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pagina)
         {
+            int numero = 20;
+            var lista = _context.Films.IgnoreQueryFilters();
+            ViewBag.Pagina = pagina;
+            lista=_context.Films.Take((int)numero).Skip((int)numero+(pagina -1));
               return _context.Films != null ? 
                           View(await _context.Films.ToListAsync()) :
                           Problem("Entity set 'Core_PrestitiVideotecaContext.Films'  is null.");
@@ -173,6 +177,17 @@ namespace Core_PrestitiVideoteca.Controllers
                 return RedirectToAction(nameof(SearchFilm));
             var films = await _context.Films
                 .Where(f => f.Attori.Contains(Query))
+                .ToListAsync();
+            return View("Index", films);
+        }
+        public async Task<IActionResult> SearchAll(string? Query)
+        {
+            if (string.IsNullOrEmpty(Query))
+                return RedirectToAction(nameof(SearchAll));
+            var films = await _context.Films
+                .Where(f => f.Attori.Contains(Query))
+                .Where(f => f.Titolo.Contains(Query))
+                .Where(f => f.Regista.Contains(Query))
                 .ToListAsync();
             return View("Index", films);
         }

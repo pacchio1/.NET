@@ -57,12 +57,12 @@ namespace Ludoteca.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Denominazione,Descrizione,Tipologia,EtaDeiGiocatori,NumeroDiGiocatori,DurataPartita,NumeroDiPezzi,IdGioco")] Gioco gioco)
         {
-            if (ModelState.IsValid)
-            {
+            
+            
                 _context.Add(gioco);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+            
             return View(gioco);
         }
 

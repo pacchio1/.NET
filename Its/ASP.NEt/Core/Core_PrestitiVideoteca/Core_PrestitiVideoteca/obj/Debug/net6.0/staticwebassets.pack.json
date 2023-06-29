@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Core_PrestitiVideoteca.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Core_PrestitiVideoteca.bundle.scp.css"
+      "Id": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\frontend.prestitivideoteca.bundle.scp.css",
+      "PackagePath": "staticwebassets\\frontend.prestitivideoteca.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\Core_PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Core_PrestitiVideoteca.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.frontend.prestitivideoteca.props",
+      "PackagePath": "build\\frontend.prestitivideoteca.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.frontend.prestitivideoteca.props",
+      "PackagePath": "buildMultiTargeting\\frontend.prestitivideoteca.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.frontend.prestitivideoteca.props",
+      "PackagePath": "buildTransitive\\frontend.prestitivideoteca.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.frontend.prestitivideoteca.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Core_PrestitiVideoteca.props",
-      "PackagePath": "build\\Core_PrestitiVideoteca.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Core_PrestitiVideoteca.props",
-      "PackagePath": "buildMultiTargeting\\Core_PrestitiVideoteca.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Core_PrestitiVideoteca.props",
-      "PackagePath": "buildTransitive\\Core_PrestitiVideoteca.props"
     }
   ],
   "ElementsToRemove": []
