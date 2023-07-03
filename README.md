@@ -1,2 +1,2 @@
 # Csharp
-Some programs i have done whit C# or .NET
+Some programs i have done in .NET
