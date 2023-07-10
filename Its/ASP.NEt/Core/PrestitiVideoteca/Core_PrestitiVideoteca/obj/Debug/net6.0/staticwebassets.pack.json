@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

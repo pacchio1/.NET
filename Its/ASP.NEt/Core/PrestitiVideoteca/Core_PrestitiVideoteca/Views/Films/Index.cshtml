@@ -16,9 +16,11 @@
 <form asp-controller="Films" asp-action="Index" method="get">
 Genere:
 <select name="genere">
+        <option value="@null" selected>Tutti</option>
+
     @foreach (var genere in ViewBag.Generi)
     {
-        <option value="@genere">@genere</option>
+        <option value="@genere" >@genere</option>
 
     }
         <input type="submit" value="Search" />
@@ -30,11 +32,11 @@ Genere:
             <th>
                 @if (ViewBag.Ordinamento == "asc")
                 {
-                    <a href="?o=desc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
+                    <a href="?o=asc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
                 }
                 else
                 {
-                    <a href="?o=asc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
+                    <a href="?o=desc" name="o">@Html.DisplayNameFor(model => model.Titolo)</a>
                 }
             </th>            
             <th>

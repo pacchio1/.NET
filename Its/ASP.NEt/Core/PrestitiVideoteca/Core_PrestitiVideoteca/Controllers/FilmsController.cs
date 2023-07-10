@@ -27,40 +27,38 @@ namespace Frontend.PrestitiVideoteca.Controllers
             int numeroPerPagina = 100;
             var generi = _context.Films
                 .Select(f => f.Genere)
+                .OrderBy(f => f)
                 .Distinct()
-                .OrderBy(f => f);
+                .ToList();
+                
             ViewBag.Generi = generi;
             var lista = _context.Films
                 .Skip(numeroPerPagina * (pagina - 1))
                 .Take(numeroPerPagina);
             
-            if(o == "asc")
+            if (o == "desc")
             {
                 lista = _context.Films
+                .OrderBy(f => f.Titolo)
                 .Skip(numeroPerPagina * (pagina - 1))
-                .Take(numeroPerPagina).OrderBy(f => f.Titolo);
+                .Take(numeroPerPagina);
                 ViewBag.Ordinamento = "asc";
             }
             else
             {
                 lista = _context.Films
+                .OrderByDescending(f => f.Titolo)
                 .Skip(numeroPerPagina * (pagina - 1))
-                .Take(numeroPerPagina).OrderByDescending(f => f.Titolo);
+                .Take(numeroPerPagina);
                 ViewBag.Ordinamento = "desc";
             }
             if (Query != null)
             {
-                lista = _context.Films
-                .Skip(numeroPerPagina * (pagina - 1))
-                .Take(numeroPerPagina)
-                .Where(f => f.Attori.Contains(Query) || f.Titolo.Contains(Query) || f.Regista.Contains(Query));
+                lista = _context.Films.Where(f => f.Attori.Contains(Query) || f.Titolo.Contains(Query) || f.Regista.Contains(Query));
             }
             if (genere != null)
             {
-                lista = _context.Films
-                .Skip(numeroPerPagina * (pagina - 1))
-                .Take(numeroPerPagina)
-                .Where(f => f.Genere.Contains(genere));
+                lista = _context.Films.Where(f => f.Genere.Contains(genere));
             }
             ViewBag.Pagina = pagina;
             ViewBag.NumeroPerPagina = numeroPerPagina;

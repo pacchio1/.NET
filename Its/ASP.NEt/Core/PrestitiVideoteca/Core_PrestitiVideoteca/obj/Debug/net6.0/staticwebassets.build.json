@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uH2+rTNflyaJQ+4DMe9yqAqA/MsbJZgQ/M9fArbcwo8=",
+  "Hash": "z8kjxHZ95ZLjK7yS+a0NLH460BpNPBESKaJmFI1rqvA=",
   "Source": "Frontend.PrestitiVideoteca",
   "BasePath": "_content/Frontend.PrestitiVideoteca",
   "Mode": "Default",
@@ -1103,23 +1103,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\js\\site.js",
-      "SourceId": "Frontend.PrestitiVideoteca",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\",
-      "BasePath": "_content/Frontend.PrestitiVideoteca",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\ICTS22-24.016\\Documents\\GitHub\\C#\\Its\\ASP.NEt\\Core\\PrestitiVideoteca\\Core_PrestitiVideoteca\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
